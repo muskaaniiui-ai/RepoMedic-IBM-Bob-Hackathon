@@ -163,6 +163,7 @@ IBM Bob was used throughout the development process to assist with implementatio
 RepoMedic/
 │
 ├── app/
+│   │
 │   ├── backend/
 │   │   ├── models/
 │   │   ├── routers/
@@ -170,14 +171,40 @@ RepoMedic/
 │   │   └── main.py
 │   │
 │   ├── frontend/
-│   │   └── src/
+│   │   ├── src/
+│   │   ├── public/
+│   │   ├── package.json
+│   │   └── vite.config.*
 │   │
 │   ├── core/
-│   ├── tests/
-│   └── sample_repo/
+│   │   ├── analyzer.py
+│   │   └── other analysis modules
+│   │
+│   ├── docs/
+│   │   └── project documentation
+│   │
+│   ├── evidence/
+│   │   └── evidence-chain related files
+│   │
+│   ├── sample_repo/
+│   │   ├── spectral/
+│   │   ├── tests/
+│   │   ├── requirements.txt
+│   │   └── other sample project files
+│   │
+│   └── tests/
+│       ├── test_analyzer.py
+│       ├── test_repair.py
+│       ├── test_repository.py
+│       ├── test_scanner.py
+│       └── other backend tests
 │
 ├── agents/
+│   └── IBM Bob workflow and agent-related files
+│
 ├── requirements.txt
 ├── pyproject.toml
+├── .gitignore
+└── README.md
 ├── .gitignore
 └── README.md
